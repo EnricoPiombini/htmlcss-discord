@@ -56,3 +56,16 @@ header {
     display: flex;
     align-items: center;
 }
+.right-text{
+    padding-left: 70px;
+}
+.title{
+    font-size: 20px;
+}
+.sub-text{
+    font-size: 20px;
+}
+.second-content{
+    display: flex;
+    flex-direction: row-reverse;
+}
