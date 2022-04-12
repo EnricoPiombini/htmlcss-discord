@@ -69,3 +69,6 @@ header {
     display: flex;
     flex-direction: row-reverse;
 }
+.third-container{
+    display: flex;
+}
