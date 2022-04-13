@@ -10,7 +10,6 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .nav-buttons {
@@ -18,21 +17,42 @@ header {
     justify-content: space-between;
     padding-left: 5rem;
     padding-right: 5rem;
-
 }
-.logo{
+
+.logo {
     color: white;
 }
 
 .link {
     margin: 10px;
-    font-size: 16px;
+    font-size: 12px;
     color: white;
     text-decoration: none;
-    
 }
-.final-links{
-    display:block
+
+.btn-white {
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    border: 1px solid white;
+}
+
+.btn-black {
+    padding: 7px 16px;
+    border-radius: 40px;
+    border: 1px solid #23272A;
+    color: white;
+    background-color: #23272A;
+    font-size: 14px;
+}
+
+.final-links {
+    display: block;
+    text-decoration: none;
+    color: #F6F6F6;
+    margin: 15px;
+    padding: 1px;
+    font-size: 12px;
 }
 
 .herobody {
@@ -45,7 +65,6 @@ header {
 .main-title {
     font-size: 50px;
     color: white;
-
 }
 
 .first-text {
@@ -59,7 +78,7 @@ header {
 
 .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 1150px;
     min-width: 300px;
     margin: 0 auto;
     padding: 2rem 1rem;
@@ -69,6 +88,7 @@ header {
     width: 80%;
     display: flex;
     align-items: center;
+    margin-top: 40px;
 }
 
 .right-text {
@@ -80,20 +100,24 @@ header {
 }
 
 .sub-text {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .second-content {
     display: flex;
     flex-direction: row-reverse;
     background-color: #F6F6F6;
+    margin-top: 100px;
 }
 
 .third-content {
     display: flex;
+    margin-top: 100px;
 }
-.fourth-content{
+
+.fourth-content {
     text-align: center;
+    margin-top: 100px;
 }
 
 .last-content {
@@ -102,6 +126,7 @@ header {
     background-color: #23272A;
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .column {
@@ -112,18 +137,69 @@ header {
 .col {
     width: calc(100% / 5 - 40px);
     min-height: 300px;
-    
+    padding: 10px;
 }
 
 .colfirst {
     width: calc(100% / 5 - 40px);
     min-height: 300px;
-    
     flex-grow: 1;
-
 }
-.final-tags{
+
+.flag {
+    width: 20px;
+}
+
+.final-tags {
     display: flex;
-    justify-content: space-around;
-    background-color:#23272A ;
+    justify-content: space-between;
+    background-color: #23272A;
+    padding: 30px;
+}
+
+.separator {
+    height: 1px;
+    width: 100%;
+    background-color: #404EED;
+}
+
+.btn-blue {
+    padding: 7px 16px;
+    border-radius: 40px;
+    border: 1px solid #F6F6F6;
+    color: white;
+    background-color: #C3D4FB;
+    font-size: 14px;
+}
+
+.maintitle-links {
+    color: #2331BE;
+}
+
+.country {
+    display: flex;
+    gap: 10px;
+}
+
+.fa-solid {
+    color: #F6F6F6;
+}
+.fa-brands{
+    margin: 10px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.language {
+    color: #F6F6F6;
+}
+
+.title-links {
+    color: #C3D4FB;
+    padding: 10px;
+    color: #2331BE;
+}
+
+.socials-links {
+    color:#F6F6F6 ;
 }
