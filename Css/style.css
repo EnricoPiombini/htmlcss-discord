@@ -20,12 +20,19 @@ header {
     padding-right: 5rem;
 
 }
+.logo{
+    color: white;
+}
 
 .link {
     margin: 10px;
     font-size: 16px;
     color: white;
     text-decoration: none;
+    
+}
+.final-links{
+    display:block
 }
 
 .herobody {
@@ -79,10 +86,14 @@ header {
 .second-content {
     display: flex;
     flex-direction: row-reverse;
+    background-color: #F6F6F6;
 }
 
 .third-content {
     display: flex;
+}
+.fourth-content{
+    text-align: center;
 }
 
 .last-content {
@@ -94,7 +105,6 @@ header {
 }
 
 .column {
-    width: 80%;
     display: flex;
     justify-content: center;
 }
@@ -102,13 +112,18 @@ header {
 .col {
     width: calc(100% / 5 - 40px);
     min-height: 300px;
-    border: 1px dashed white;
+    
 }
 
 .colfirst {
     width: calc(100% / 5 - 40px);
     min-height: 300px;
-    border: 1px dashed;
+    
     flex-grow: 1;
 
+}
+.final-tags{
+    display: flex;
+    justify-content: space-around;
+    background-color:#23272A ;
 }
